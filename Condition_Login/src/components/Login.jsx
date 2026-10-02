@@ -2,13 +2,13 @@ function LogIn() {
     return (
         <div>
             <div>Email :
-                <input />
+                <input type="email" placeholder="Enter Your Email" required />
             </div>
 
             <div>Password :
-                <input />
+                <input type="password" placeholder="Enter Your Password" required/>
             </div>
-            <div><button>LogIn</button></div>
+            <div><button type="submit">LogIn</button></div>
         </div>
     );
 }
